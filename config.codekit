@@ -184,11 +184,11 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/gulpfile.babel.js",
-		"outputAbbreviatedPath": "\/min\/gulpfile.babel-min.js",
+		"outputAbbreviatedPath": "\/gulpfile.babel-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 2
 		},
 	"\/images\/touch\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -289,53 +289,94 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scripts\/main.js",
-		"outputAbbreviatedPath": "\/scripts\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/scripts\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 2
 		},
 	"\/scripts\/main.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scripts\/main.min.js",
-		"outputAbbreviatedPath": "\/scripts\/min\/main.min-min.js",
+		"outputAbbreviatedPath": "\/scripts\/main.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 2
 		},
 	"\/scripts\/sw\/runtime-caching.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scripts\/sw\/runtime-caching.js",
-		"outputAbbreviatedPath": "\/scripts\/sw\/min\/runtime-caching-min.js",
+		"outputAbbreviatedPath": "\/scripts\/sw\/runtime-caching-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 2
 		},
 	"\/service-worker.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/service-worker.js",
-		"outputAbbreviatedPath": "\/min\/service-worker-min.js",
+		"outputAbbreviatedPath": "\/service-worker-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 2
+		},
+	"\/styles\/csswizardry-grids.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/csswizardry-grids.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/csswizardry-grids.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/csswizardry-grids.scss",
+		"outputAbbreviatedPath": "\/styles\/csswizardry-grids.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		},
 	"\/styles\/main.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/styles\/main.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/main.scss",
+		"outputAbbreviatedPath": "\/styles\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		}
 	},
 "hooks": [
@@ -345,8 +386,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "webstarter",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "shadeweb.ca",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_darkGray"
 	},
 "projectSettings": {
@@ -533,10 +574,10 @@
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
-	"javascriptAutoOutputPathStyle": 2,
+	"javascriptAutoOutputPathStyle": 0,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptSyntaxCheckerStyle": 2,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -939,12 +980,12 @@
 	"sassAutoOutputPathRelativePath": "..\/css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
-	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassAutoOutputPathStyle": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
-	"sassUseLibsass": 0,
+	"sassUseLibsass": 1,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
