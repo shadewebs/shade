@@ -6392,3 +6392,70 @@ a.to-the-top > * {
 		max-width: 50%;
 	}
 }
+
+/* steps */
+@media screen and (min-width: 768px) {
+	.rw-steps h2 {
+		font-size: 3.4rem;
+		text-align: center;
+	}
+	.rw-steps, .rw-about-studio, .rw-about-paige {
+		max-width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.rw-steps ol {
+		margin-left: 0;
+		display: flex;
+	}
+	.rw-steps li {
+		max-width: 33%;
+		flex: 0 0 33%;
+		font-size: 15px;
+		color: #666;
+		font-family: system-ui;
+		font-style: italic;
+		letter-spacing: 0.02em;	
+	}
+}
+@media only screen and (max-width: 767px) {
+	section[class*="rw-"]:not([class="rw-hero"]) {
+		max-width: calc(100% - 48px);
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+}
+
+
+/* cols */
+@media screen and (min-width: 768px) {
+	.rw-cols {
+		display: flex;
+	}
+	.rw-col {
+		max-width: 50%;
+		flex: 0 0 50%;
+	}
+	.rw-col img {
+		max-width: 90%;
+		margin-right: 10%;
+	}
+	.rw-about-paige .rw-col:first-of-type {
+		order: 1;
+	}
+	.rw-about-paige .rw-col:first-of-type img {
+		margin-right: 0;
+		margin-left: 10%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.rw-col img {
+		margin-bottom: 16px;
+	}
+}
+
+
+/* temp overrides */
+body {
+	background: white;
+}
