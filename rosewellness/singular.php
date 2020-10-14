@@ -12,6 +12,38 @@
 get_header();
 ?>
 
+<style type="text/css" id="rw-preload">
+	.rw-hero {
+		background-size: cover;
+		background-color: aliceblue;
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1885' height='1060' viewBox='0 0 1500 823'%3E%3Cfilter id='blur' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20 20' edgeMode='duplicate' /%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1' /%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23blur)' xlink:href='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAWACgDAREAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAEFAgME/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAnwGzKkTKKZlo+bnp0wpgn//EACEQAQACAgICAgMAAAAAAAAAAAEAAhESAyExQhQkQVGB/9oACAEBAAE/AK3bZ7UCa26PzOLcdquWfO+qy/Nv7+X+salhMjnwpGuzVXOIWa8Wla1LPtLueMr0kvxvSVT94g5hNkIWm0//xAAYEQACAwAAAAAAAAAAAAAAAAARIAAQEv/aAAgBAgEBPwCswqH/AP/EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8Af//Z' x='0' y='0' height='100%25' width='100%25'/%3E%3C/svg%3E");
+		/*background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1500' height='823' viewBox='0 0 1500 823'%3E%3Cfilter id='blur' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20 20' edgeMode='duplicate' /%3E%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1' /%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Cimage filter='url(%23blur)' xlink:href='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAWACgDAREAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAEFAgME/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAnwGzKkTKKZlo+bnp0wpgn//EACEQAQACAgICAgMAAAAAAAAAAAEAAhESAyExQhQkQVGB/9oACAEBAAE/AK3bZ7UCa26PzOLcdquWfO+qy/Nv7+X+salhMjnwpGuzVXOIWa8Wla1LPtLueMr0kvxvSVT94g5hNkIWm0//xAAYEQACAwAAAAAAAAAAAAAAAAARIAAQEv/aAAgBAgEBPwCswqH/AP/EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8Af//Z' x='0' y='0' height='100%25' width='100%25'/%3E%3C/svg%3E);*/
+		/*background-image: filter(url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAWACgDAREAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAEFAgME/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAnwGzKkTKKZlo+bnp0wpgn//EACEQAQACAgICAgMAAAAAAAAAAAEAAhESAyExQhQkQVGB/9oACAEBAAE/AK3bZ7UCa26PzOLcdquWfO+qy/Nv7+X+salhMjnwpGuzVXOIWa8Wla1LPtLueMr0kvxvSVT94g5hNkIWm0//xAAYEQACAwAAAAAAAAAAAAAAAAARIAAQEv/aAAgBAgEBPwCswqH/AP/EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8Af//Z"), blur(20px));*/
+	}
+	/*.rw-hero {
+		background-image: filter(url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wgARCAAWACgDAREAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAEFAgME/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAnwGzKkTKKZlo+bnp0wpgn//EACEQAQACAgICAgMAAAAAAAAAAAEAAhESAyExQhQkQVGB/9oACAEBAAE/AK3bZ7UCa26PzOLcdquWfO+qy/Nv7+X+salhMjnwpGuzVXOIWa8Wla1LPtLueMr0kvxvSVT94g5hNkIWm0//xAAYEQACAwAAAAAAAAAAAAAAAAARIAAQEv/aAAgBAgEBPwCswqH/AP/EABQRAQAAAAAAAAAAAAAAAAAAADD/2gAIAQMBAT8Af//Z), blur(20px));
+	}*/
+
+	.rw-hero--loaded {
+		background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/banner-front-16-9-med.jpg');
+	}
+
+	@supports (background-image: filter(url('i.jpg'), blur(1px))) {
+	.rw-hero {
+		transform: translateZ(0);
+	}
+	.rw-hero--loaded {
+		animation: sharpen 5s both;
+	}
+	@keyframes sharpen {
+		from {
+			background-image: filter(url('<?php echo get_template_directory_uri(); ?>/assets/images/banner-front-16-9-med.jpg'), blur(20px));
+		}
+		to {
+			background-image: filter(url('<?php echo get_template_directory_uri(); ?>/assets/images/banner-front-16-9-med.jpg'), blur(0px));
+		}
+	}
+</style>
 <main id="site-content" role="main">
 
 	<?php if ( is_front_page() ): ?>
@@ -86,6 +118,67 @@ get_header();
 	?>
 
 </main><!-- #site-content -->
+
+<script>
+window.onload = function loadStuff() {
+	var win, doc, img, header, enhancedClass;
+	
+	// Quit early if older browser (e.g. IE 8).
+	if (!('addEventListener' in window)) {
+		return;
+	}
+
+	win = window;
+	doc = win.document;
+	img = new Image();
+	header = doc.querySelector('.rw-hero');
+
+	// enhancedClass = 'rw-hero';
+	enhancedClass = 'rw-hero--loaded';
+
+	// Rather convoluted, but parses out the first mention of a background
+	// image url for the enhanced header, even if the style is not applied.
+	var bigSrc = (function () {
+		// Find all of the CssRule objects inside the inline stylesheet 
+		var styles = doc.getElementById('rw-preload').sheet.cssRules;
+		
+		// Fetch the background-image declaration...
+		var bgDecl = (function () {
+			// ...via a self-executing function, where a loop is run
+			var bgStyle, i, l = styles.length;
+			for (i=0; i<l; i++) {
+				// ...checking if the rule is the one targeting the
+				// enhanced header.
+
+				if (styles[i].selectorText &&
+						styles[i].selectorText == '.'+enhancedClass) {
+					// If so, set bgDecl to the entire background-image
+					// value of that rule
+					bgStyle = styles[i].style.backgroundImage;
+					// ...and break the loop.
+					break; 
+				}
+			}
+			// ...and return that text.
+			return bgStyle;
+		}());
+		// Finally, return a match for the URL inside the background-image
+		// by using a fancy regex I Googled up, as long as the bgDecl 
+		// variable is assigned at all.         
+		return bgDecl && bgDecl.match(/(?:\(['|"]?)(.*?)(?:['|"]?\))/)[1];
+	}());
+
+	// Assign an onLoad handler to the dummy image *before* assigning the src
+	img.onload = function () {
+		header.className += ' ' +enhancedClass;
+	};
+	// Finally, trigger the whole preloading chain by giving the dummy
+	// image its source.
+	if (bigSrc) {
+		img.src = bigSrc;
+	}
+};
+</script>
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 

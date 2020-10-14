@@ -6343,7 +6343,7 @@ a.to-the-top > * {
 	padding: 20px;
 }
 .home .rw-hero {
-	background: url('./assets/images/banner-front.jpg') top center no-repeat;
+	/*background: url('./assets/images/banner-front.jpg') top center no-repeat;*/
 	background-size: cover;
 	min-height: 80vh;
 	position: relative;
@@ -6352,6 +6352,15 @@ a.to-the-top > * {
 	z-index: 1;
 	padding: 80px;
 }
+/* to be refactored */
+.home .rw-hero.rw-hero--loaded { 
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+
+
+
 @media screen and (max-width: 479px) {
 	.home .rw-hero {
 		padding: 20px;

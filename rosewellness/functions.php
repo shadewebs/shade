@@ -212,6 +212,17 @@ function twentytwenty_register_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'twentytwenty_register_scripts' );
 
+function rw_register_scripts() {
+
+	$theme_version = wp_get_theme()->get( 'Version' );
+
+	wp_enqueue_script( 'rw-custom-js', get_template_directory_uri() . '/assets/js/custom.js', array(), $theme_version, false );
+
+	// wp_script_add_data( 'rw-custom-js', 'async', true );
+}
+
+add_action( 'wp_enqueue_scripts', 'rw_register_scripts' );
+
 /**
  * Fix skip link focus in IE11.
  *
